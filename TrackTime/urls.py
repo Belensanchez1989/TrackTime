@@ -24,4 +24,5 @@ urlpatterns = [
     path(BASE_URL, include("users.urls")),
     path(BASE_URL, include("services.urls")),
     path(BASE_URL, include("reservations.urls")),
+    path(BASE_URL, include("calendary.urls")),
 ]
