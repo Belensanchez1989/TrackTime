@@ -11,5 +11,5 @@ router.register(r'years', YearViewSet)
 
 urlpatterns = [
     #nombre de la ruta de entrada de la Api
-    path('', include(router.urls)),
+    path('calendary/', include(router.urls)),
 ]

@@ -43,8 +43,10 @@ INSTALLED_APPS = [
     "users",
     "reservations",
     "services",
-    'corsheaders',
     'calendary',
+    "hours",
+    'corsheaders',
+
 ]
 
 MIDDLEWARE = [
