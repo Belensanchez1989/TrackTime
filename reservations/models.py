@@ -6,7 +6,8 @@ from django.contrib.auth.models import User
 # Create your models here.
 class Reservation(models.Model):
     date = models.DateField(null=True)
-    hour = models.TimeField(null=True,max_length=250)
+    end_hour = models.TimeField(null=True,max_length=250)
+    start_hour = models.TimeField(null=True,max_length=250)
     user = models.ForeignKey(User, null=True, on_delete=models.CASCADE)
 
 
